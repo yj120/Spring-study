@@ -24,7 +24,7 @@ public class HelloController {
     @ResponseBody // http body 에 직접 넣어주겠다.
     public String helloString(@RequestParam("name") String name){
         return "hello " + name; //name 을 어떻게 넣어주냐에 따라 값이 다르게 출력
-        // 이전의 템플릿이랑 다른점은 view가 없음 그냥 문자그대로 넘어감->html tag 없이!
+        // 직전의 템플릿이랑 다른점은 view가 없음 그냥 문자그대로 넘어감->html tag 없이!
     }
 
 

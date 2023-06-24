@@ -12,7 +12,7 @@ import java.util.List;
 
 @Controller
 public class MemberController {
-    private final MemberService memberService;
+    private final MemberService memberService; // final -> 무언가를 제한한다.
 
     //cmd+n
     // 위에 선언한 memberService 생성
